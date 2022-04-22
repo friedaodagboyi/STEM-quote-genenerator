@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+  /* background: #06BDC1;
+  background: -webkit-radial-gradient(center, #06BDC1, #68469F);
+  background: -moz-radial-gradient(center, #06BDC1, #68469F);
+  background: radial-gradient(ellipse at center, #06BDC1, #68469F); */
+  background-image: url(./christina-wocintechchat-com-MkxWUzCuYkE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  font-family: cursive;
+}
+
+.container{
+  width: 1280px;
+  margin: auto;
+}
+
+.quotes-container{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+a{text-decoration: none;
+color: #06BDC1;}
+
+.inner-quotes-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  text-align: center;
+  min-height: 400px;
+  padding: 0 25px;
+  color: gray;
+  border-radius: 10px;
+  background-color: #F4EDEA;
+  border: 10px solid #06BDC1;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.9); 
+}
+
+.inner-quotes-container p{
+  font-size: 1.5rem;
+  color: black;
+}
+
+.inner-quotes-container h3{
+  font-size: 2rem;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* .quote-btn{
+  padding-top: 25px;
+} */
+
+marquee{
+  background-color: black;
+  color: #06BDC1;
+  padding: 2px;
+  border: solid 4px #06BDC1;
+
+}
+h2{
+  color: #06BDC1;
+  font-size: large;
+}
+
+span{
+  color: palevioletred;
+  font-size: small;
+  font-weight: bolder;
+}
+  
+.btn{
+  cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    /* text-transform: lowercase; */
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 0px;
+    display: inline-block;
+    font-weight: bolder;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #06BDC1;
+    border: 4px solid #06BDC1;
+    margin-top: 20px;
+
+}
+
+.btn:hover{
+    background: transparent;
+    border-color: #06BDC1;
+    color: #06BDC1;
+}
+
+
+
+@media(max-width:1280px){
+  .container{width: 95%;}
+}
+
+@media(max-width:900px){
+  .inner-quotes-container{width: 100%;}
+}
+
+@media(max-width:480px){
+  .inner-quotes-container p{font-size: 1.2rem;}
+  .inner-quotes-container h3{font-size: 1.5rem;}
+}
+
