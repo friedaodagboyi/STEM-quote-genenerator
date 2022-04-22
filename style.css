@@ -63,8 +63,8 @@ color: #06BDC1;}
 marquee{
   background-color: black;
   color: #06BDC1;
-  padding: 0px;
-  height:10px;
+  padding: 2px;
+  height:50px;
   border: solid 4px #06BDC1;
 
 }
