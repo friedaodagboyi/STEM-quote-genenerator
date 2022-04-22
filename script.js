@@ -36,7 +36,7 @@ generate = () => {
     "- Grace Hopper": '"We’ve tended to forget that no computer will ever ask a new question."',
     "- Mae Jemison": '"Sciences provide an understanding of a universal experience, Arts are a universal understanding of personal experience. The arts and sciences are avatars of human creativity"',
  
-    "- Mare Curie": '"Nothing in life is to be feared. It is only to be understood. Now is the time to understand more, so that we may fear less."',
+    "- Marie Curie": '"Nothing in life is to be feared. It is only to be understood. Now is the time to understand more, so that we may fear less."',
     "- Maryam Mirzakhani": '"I dont have any particular recipe. It is the reason why doing research is challenging as well as attractive. It is like being lost in a jungle and trying to use all the knowledge that you can gather to come up with some new tricks, and with some luck, you might find a way out."',
   };
 
